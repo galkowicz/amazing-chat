@@ -14,6 +14,28 @@ body {
   }
 }
 
+.message-creator {
+  padding-top: 2rem;
+}
+
+.avatar {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.username {
+  display: inline-block;
+}
+
+.messages-list {
+  float: left;
+}
+
+.own-message {
+  background-color: greenyellow;
+}
 
 
 

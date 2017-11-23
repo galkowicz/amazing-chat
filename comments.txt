@@ -1,7 +1,8 @@
 Add your general design and decision comments here:
 
 
-
+With more time it's better to connect the app to redux store.
+Saving messages and username to store. Then getting name from store instead of sending it through props.
 
 
 
