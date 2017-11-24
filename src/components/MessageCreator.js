@@ -45,7 +45,7 @@ class MessageCreator extends Component {
     }
 
     checkLocalStorageForUsername() {
-        const username = localStorage.getItem('spotim-username');
+        const username = localStorage.getItem('spotim-username') || '';
         let avatarKey = localStorage.getItem('spotim-avatarKey');
         if (!username) {
             avatarKey = this.generateUserAvatar();
